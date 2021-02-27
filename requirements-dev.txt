@@ -7,9 +7,13 @@
 attrs==20.3.0
     # via pytest
 certifi==2020.12.5
-    # via requests
+    # via
+    #   -r ./requirements.txt
+    #   requests
 chardet==4.0.0
-    # via requests
+    # via
+    #   -r ./requirements.txt
+    #   requests
 codecov==2.1.11
     # via -r requirements-dev.in
 coverage==5.4
@@ -20,7 +24,9 @@ coverage==5.4
 flake8==3.8.4
     # via -r requirements-dev.in
 idna==2.10
-    # via requests
+    # via
+    #   -r ./requirements.txt
+    #   requests
 iniconfig==1.1.1
     # via pytest
 mccabe==0.6.1
@@ -41,16 +47,28 @@ pytest-assume==2.4.2
     # via -r requirements-dev.in
 pytest-cov==2.11.1
     # via -r requirements-dev.in
+pytest-mock==3.5.1
+    # via -r requirements-dev.in
 pytest==6.2.2
     # via
     #   -r requirements-dev.in
     #   pytest-assume
     #   pytest-cov
+    #   pytest-mock
+requests-mock==1.8.0
+    # via -r requirements-dev.in
 requests==2.25.1
-    # via codecov
+    # via
+    #   -r ./requirements.txt
+    #   codecov
+    #   requests-mock
 six==1.15.0
-    # via pytest-assume
+    # via
+    #   pytest-assume
+    #   requests-mock
 toml==0.10.2
     # via pytest
 urllib3==1.26.3
-    # via requests
+    # via
+    #   -r ./requirements.txt
+    #   requests
