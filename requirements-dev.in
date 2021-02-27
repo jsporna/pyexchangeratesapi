@@ -5,3 +5,5 @@ coverage
 pytest
 pytest-cov
 pytest-assume
+pytest-mock
+requests-mock
