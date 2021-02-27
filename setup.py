@@ -10,7 +10,7 @@ def load_long_description():
 
 setup(
     name='exchangeratesapi',
-    version='0.0.0',
+    version='0.1.0',
     description='Python wrapper on Exchange Rates API',
     long_description=load_long_description(),
     long_description_content_type='text/markdown',
