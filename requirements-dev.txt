@@ -68,7 +68,7 @@ six==1.15.0
     #   requests-mock
 toml==0.10.2
     # via pytest
-urllib3==1.26.3
+urllib3==1.26.4
     # via
     #   -r ./requirements.txt
     #   requests
